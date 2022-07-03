@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: #087f5b;
+}
+
+.container {
+  max-width: 50rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 3rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  background-color: #087f5b;
+  color: #fdf2e9;
+}
+
+.btn:hover {
+  background-color: #099268;
+}
+
+.todo-list {
+  background-color: #fff;
+  border-radius: 1rem;
+  /* overflow: scroll; */
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.half-list {
+  padding: 2rem 4rem;
+  border-bottom: 1px solid #eee;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+svg {
+  width: 2rem; 
+  padding: 0.5rem 0.5rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  background-color: #9be15d;
+  color: #fdf2e9;
+}
+.my-style{
+  background-color: #ff585f;
+}
+.secondPart {
+  padding: 2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.secondPart input {
+  padding: 0.5rem 3rem;
+  font-size: 0.85rem;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+}
+
+.secondPart input::placeholder {
+  color: #aaa;
+}
+
+.secondPart *:focus {
+  outline: none;
+}
